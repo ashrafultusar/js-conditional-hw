@@ -1,19 +1,15 @@
-// QUESTION 
-/***
+const BMI = 30;
 
-Free Drinks
-    - Burger more than 500tk: free Coke
-    - Else Coke: 30tk
-*/
-
-// ANSWAR
-
- const burgerPrice=400;
-
-if(burgerPrice>500){
-console.log('free Coke')
+if (BMI < 18.5) {
+    console.log('you are underweight')
+}
+else if (BMI >= 18.5 && BMI <= 24.9) {
+    console.log('you are normal')
+}
+else if (BMI >= 25 && BMI <= 29.9) {
+    console.log('you are overweight')
 }
 
-else{
-    console.log('coke 30tk')
+else {
+    console.log('you are obese')
 }
